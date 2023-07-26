@@ -6,18 +6,33 @@ export const FeedbackProvider = ({ children }) => {
   const [feedback, setFeedback] = useState([
     {
       id: 1,
-      text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, perferendis",
-      rating: 8,
+      text: "I really like this product and if something happen mine next time also want to buy it. It comes even free charger",
+      rating: 10,
     },
     {
       id: 2,
-      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ab alias est aliquam! Quos mollitia iure velit repellendus vero officiis!",
+      text: "I have tried different types of bookreaders. The fact that this product is way cheaper than Amazon Kindle or Crema makes it it more desirable. However, low price comes with several small irritating qualities!",
       rating: 6,
     },
     {
       id: 3,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum molestiae modi quo deserunt reiciendis! Suscipit soluta hic minus culpa, dolore quo in recusandae saepe, ipsam asperiores maxime, eius iusto deserunt.",
+      text: "Touch is working perfectly, online synchronizing works seamless too.",
       rating: 9,
+    },
+    {
+      id: 4,
+      text: "Before buying this i was thinking a lot whether to buy it or not. Bcoz i already had an old Kindle. But even after buying that feeling didn't disappear. Maybe i didn'tneed to buy this, or maybe it is better than old kindle with vulnerable battery life?",
+      rating: 6,
+    },
+    {
+      id: 5,
+      text: "Perfecto! Gracias Muchas @#$@$",
+      rating: 6,
+    },
+    {
+      id: 6,
+      text: "I would be more happy if this reader starts supporting pdf file format too. Plus, would be great if it is possible to send books through email without connecting the cable.",
+      rating: 8,
     },
   ]);
 
